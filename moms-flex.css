@@ -1,0 +1,133 @@
+@import "compass/css3";
+
+div {
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+
+}
+.container {
+    display: -webkit-flex;
+
+    display: flex; /* or inline-flex */
+    flex-direction:column;
+    flex-wrap: nowrap;
+}
+
+.container2 {
+    display: -webkit-flex;
+    display: flex; /* or inline-flex */
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+
+.header {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid, 1px;
+
+}
+
+#deck {
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+h1 {
+    font: bold 20pt;
+    margin-bottom: -2%;
+}
+
+
+.moms {
+    display: -webkit-flex;
+    display: flex; /* or inline-flex */
+    flex-direction:row;
+    justify-content:center;
+}
+
+.mom {
+    margin: 5px;
+    text-align: center;
+    border: solid;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.white {
+    color: black;
+    background-color: red;
+}
+
+.black {
+    color: white;
+    background-color: black; 
+}
+
+.mom:hover {
+    color: white;
+    background-color: black;
+}
+
+.mom:visited {
+    color: white;
+    background-color: black;
+}
+
+.slides {
+    margin: 0;
+    max-width: 750px;
+    max-height: 00px;
+    margin:10vh auto 0 auto;
+}
+
+.slides > div {
+    display: inline-block;
+}
+
+
+#slideshow {
+    margin: 0;
+	position: relative;
+    width: 620px;
+    height:470px;
+}
+
+#slideshow > div {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+}
+
+#slideshow img {
+	width: 100%;
+    margin: 0;
+    border: solid 1px #283593;
+}
+
+.arrowR, .arrowL {
+  width: 40px;
+  font-size: 64px;
+  display: inline-block;
+  color: #9FA8DA;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 400px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.clip {
+    display: -webkit-flex;
+    display: flex; /* or inline-flex */
+    flex-direction:row;
+    justify-content:center;
+}
