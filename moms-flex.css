@@ -6,7 +6,6 @@ div {
 }
 .container {
     display: -webkit-flex;
-
     display: flex; /* or inline-flex */
     flex-direction:column;
     flex-wrap: nowrap;
@@ -20,8 +19,39 @@ div {
     justify-content:center;
 }
 
+h2 {
+    font-family: 'Arial black';
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, .7);
+}
+
+h2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+}
+
+.header1 {
+    display: -webkit-flex;
+    display: flex; /* or inline-flex */
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+#NBN {
+    margin-left: 2%;
+}
+
+
+p a {
+    text-decoration: none;
+
+}
 
 .header {
+
     margin-left: 5%;
     margin-right: 5%;
     border: solid, 1px;
@@ -36,6 +66,13 @@ div {
 h1 {
     font: bold 20pt;
     margin-bottom: -2%;
+}
+
+button p {
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;   
+    margin: 1%;
+
 }
 
 
@@ -53,11 +90,13 @@ h1 {
     width: 20%;
     padding-left: 5px;
     padding-right: 5px;
+    color: black;
+    background-color: white;
 }
 
 .white {
     color: black;
-    background-color: red;
+    background-color: white;
 }
 
 .black {
@@ -66,11 +105,6 @@ h1 {
 }
 
 .mom:hover {
-    color: white;
-    background-color: black;
-}
-
-.mom:visited {
     color: white;
     background-color: black;
 }
@@ -92,20 +126,22 @@ h1 {
 	position: relative;
     width: 620px;
     height:470px;
+    text-align: center;
 }
 
 #slideshow > div {
-	position: absolute;
-	top: 0; 
-	left: 0; 
-	right: 0; 
-	bottom: 0; 
+	position: relative;
+	margin: auto;
+    justify-content: center;
+
 }
 
 #slideshow img {
-	width: 100%;
-    margin: 0;
+	max-height: 470px;
+    max-width: 620px;
+    margin: auto;
     border: solid 1px #283593;
+    align-self: center;
 }
 
 .arrowR, .arrowL {
